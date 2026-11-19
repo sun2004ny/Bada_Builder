@@ -1,21 +1,26 @@
 <div align="center">
 
 # Bada Builder
-**Full-Stack Real Estate Marketplace & Enterprise Operations Platform**
+
+**Enterprise Real Estate Marketplace & Construction Procurement Platform**
 
 <p>
-  <a href="https://bada-builder-frontend.vercel.app"><img src="https://img.shields.io/badge/Live_App-bada--builder--frontend.vercel.app-2563eb?style=flat-square&logo=vercel&logoColor=white" alt="Live App" /></a>
-  <img src="https://img.shields.io/badge/Frontend-React_18_•_Vite_•_Tailwind_v4-0284c7?style=flat-square" alt="Frontend" />
-  <img src="https://img.shields.io/badge/Backend-Node.js_•_Express_•_PostgreSQL-059669?style=flat-square" alt="Backend" />
-  <img src="https://img.shields.io/badge/Cloud-AWS_(EC2,_S3,_RDS)-d97706?style=flat-square&logo=amazon-aws&logoColor=white" alt="Cloud" />
-  <img src="https://img.shields.io/badge/License-ISC-475569?style=flat-square" alt="License" />
+  <a href="https://www.badabuilder.com/"><img src="https://img.shields.io/badge/Production-badabuilder.com-0052CC?style=flat-square&logo=googlechrome&logoColor=white" alt="Production Website" /></a>
+  <img src="https://img.shields.io/badge/Frontend-React_18_•_Vite_•_Tailwind-38B2AC?style=flat-square&logo=react&logoColor=white" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Backend-Node.js_•_Express_•_PostgreSQL-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Backend" />
+  <img src="https://img.shields.io/badge/Cloud-AWS_(EC2,_S3,_RDS)-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="Cloud" />
+  <img src="https://img.shields.io/badge/License-ISC-555555?style=flat-square" alt="License" />
 </p>
 
 <p>
-  <em>A unified real-estate operating ecosystem combining interactive 3D spatial walkthroughs, live group buying, construction procurement tendering, short-stay hosting, and 5 role-based dashboards.</em>
+  <a href="https://www.badabuilder.com/"><strong>Visit Live Platform (badabuilder.com) →</strong></a>
 </p>
 
 </div>
+
+---
+
+> 🏢 **Bada Builder** is an end-to-end real estate operating ecosystem unifying **3D WebGL spatial exploration**, **collective group buying**, **construction procurement tendering**, **short-stay vacation hosting**, and **5 role-based operating portals** for buyers, developers, brokers, employees, and institutional investors.
 
 ---
 
@@ -273,7 +278,7 @@ Integrated with **KaTeX** for dynamic LaTeX math rendering:
 
 ```mermaid
 flowchart TD
-    subgraph ClientLayer["Frontend Layer (React 18 + Vite | Vercel)"]
+    subgraph ClientLayer["Frontend Presentation Layer (React 18 + Vite | badabuilder.com)"]
         SPA["React SPA Router"]
         WebGL["Three.js 3D Viewport"]
         SocketClient["Socket.io Client"]
