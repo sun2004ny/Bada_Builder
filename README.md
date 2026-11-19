@@ -796,7 +796,6 @@ npm run dev
 ## 👤 Author & Production Credits
 
 **Sunny More**  
-*Full-Stack Web Developer & NLP Engineer*  
 - **LinkedIn:** [linkedin.com/in/sunnymore](https://www.linkedin.com/in/sunnymore)  
 - **GitHub:** [github.com/sun2004ny](https://github.com/sun2004ny)  
 - **Email:** [sunny260604@gmail.com](mailto:sunny260604@gmail.com)
