@@ -1,31 +1,18 @@
 <div align="center">
 
-# 🏢 BADA BUILDER (बड़ा बिल्डर)
-### *Next-Generation Full-Stack Real-Estate Marketplace, 3D Spatial Visualization & Enterprise Operations Ecosystem*
+# Bada Builder
+**Full-Stack Real Estate Marketplace & Enterprise Operations Platform**
 
-[![Live Demo](https://img.shields.io/badge/Live_Platform-bada--builder--frontend.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://bada-builder-frontend.vercel.app)
-[![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-6.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B%20LTS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![Express.js](https://img.shields.io/badge/Express.js-4.18-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon%20%2F%20AWS%20RDS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-[![Three.js](https://img.shields.io/badge/3D_Engine-Three.js%20%2B%20Fiber-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
-[![Razorpay](https://img.shields.io/badge/Payments-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)](https://razorpay.com/)
-[![WebSockets](https://img.shields.io/badge/Realtime-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
-[![License](https://img.shields.io/badge/License-ISC-green?style=for-the-badge)](LICENSE)
+<p>
+  <a href="https://bada-builder-frontend.vercel.app"><img src="https://img.shields.io/badge/Live_App-bada--builder--frontend.vercel.app-2563eb?style=flat-square&logo=vercel&logoColor=white" alt="Live App" /></a>
+  <img src="https://img.shields.io/badge/Frontend-React_18_•_Vite_•_Tailwind_v4-0284c7?style=flat-square" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Backend-Node.js_•_Express_•_PostgreSQL-059669?style=flat-square" alt="Backend" />
+  <img src="https://img.shields.io/badge/Cloud-AWS_(EC2,_S3,_RDS)-d97706?style=flat-square&logo=amazon-aws&logoColor=white" alt="Cloud" />
+  <img src="https://img.shields.io/badge/License-ISC-475569?style=flat-square" alt="License" />
+</p>
 
-<p align="center">
-  <a href="#-executive-summary">Executive Summary</a> •
-  <a href="#-complete-feature-matrix">Feature Matrix</a> •
-  <a href="#-5-role-based-dashboards">Role Portals</a> •
-  <a href="#-3d-spatial-view--live-grouping">3D & Group Buying</a> •
-  <a href="#-construction-tenders--procurement-hub">Tenders Hub</a> •
-  <a href="#-short-stay--vacation-rentals">Short Stay</a> •
-  <a href="#-system-architecture">Architecture</a> •
-  <a href="#-complete-api-reference">API Reference</a> •
-  <a href="#-database-architecture">Database</a> •
-  <a href="#-setup--installation">Setup</a>
+<p>
+  <em>A unified real-estate operating ecosystem combining interactive 3D spatial walkthroughs, live group buying, construction procurement tendering, short-stay hosting, and 5 role-based dashboards.</em>
 </p>
 
 </div>
@@ -70,7 +57,7 @@
 
 ## 🌐 Executive Summary
 
-**Bada Builder** (बड़ा बिल्डर) is a full-scale real estate ecosystem engineered to replace fragmented legacy property portals. It connects **Individual Buyers/Renters**, **Real Estate Developers**, **Brokers/Agents**, **Construction Contractors/Vendors**, **Short-Stay Hosts**, and **Institutional Investors** into one unified, real-time operating platform.
+**Bada Builder** is a full-scale real estate ecosystem engineered to replace fragmented legacy property portals. It connects **Individual Buyers/Renters**, **Real Estate Developers**, **Brokers/Agents**, **Construction Contractors/Vendors**, **Short-Stay Hosts**, and **Institutional Investors** into one unified, real-time operating platform.
 
 ### Core Value Pillars
 
