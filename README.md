@@ -2,25 +2,35 @@
 
 # Bada Builder
 
-**Enterprise Real Estate Marketplace & Construction Procurement Platform**
+**Full-stack real estate marketplace, 3D WebGL visualization, and enterprise operations ecosystem.**
 
-<p>
-  <a href="https://www.badabuilder.com/"><img src="https://img.shields.io/badge/Production-badabuilder.com-0052CC?style=flat-square&logo=googlechrome&logoColor=white" alt="Production Website" /></a>
-  <img src="https://img.shields.io/badge/Frontend-React_18_•_Vite_•_Tailwind-38B2AC?style=flat-square&logo=react&logoColor=white" alt="Frontend" />
-  <img src="https://img.shields.io/badge/Backend-Node.js_•_Express_•_PostgreSQL-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Backend" />
-  <img src="https://img.shields.io/badge/Cloud-AWS_(EC2,_S3,_RDS)-FF9900?style=flat-square&logo=amazonaws&logoColor=white" alt="Cloud" />
-  <img src="https://img.shields.io/badge/License-ISC-555555?style=flat-square" alt="License" />
-</p>
+<br />
 
-<p>
-  <a href="https://www.badabuilder.com/"><strong>Visit Live Platform (badabuilder.com) →</strong></a>
-</p>
+[![Live Platform](https://img.shields.io/badge/🌐_Visit_Live_Platform-badabuilder.com-2563eb?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.badabuilder.com/)
+
+<br /><br />
+
+[![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js_LTS-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![AWS Cloud](https://img.shields.io/badge/AWS_Cloud-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
+[![Three.js](https://img.shields.io/badge/Three.js_3D-000000?style=flat-square&logo=threedotjs&logoColor=white)](https://threejs.org/)
+[![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)](https://socket.io/)
+[![License](https://img.shields.io/badge/License-ISC-52525b?style=flat-square)](LICENSE)
+
+<br /><br />
+
+| 🧊 3D Spatial Walkthroughs | 👥 Live Group Buying | 🏗️ Procurement Tenders |
+| :---: | :---: | :---: |
+| Interactive Three.js unit selection & status sync | Dynamic tiered developer volume discounts | Blind RFPs, contractor bidding & milestone escrow |
+
+| 🏨 Vacation Short Stays | 🏢 5 Role Dashboards | 🧮 15+ RE Calculators |
+| :---: | :---: | :---: |
+| Airbnb-style guest booking & host calendar | Admin, Developer, Broker, Employee & Buyer | DCF, NPV, FFO, NOI & REIT analysis |
+
+<br />
 
 </div>
-
----
-
-> 🏢 **Bada Builder** is an end-to-end real estate operating ecosystem unifying **3D WebGL spatial exploration**, **collective group buying**, **construction procurement tendering**, **short-stay vacation hosting**, and **5 role-based operating portals** for buyers, developers, brokers, employees, and institutional investors.
 
 ---
 
