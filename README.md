@@ -1,29 +1,31 @@
 <div align="center">
 
 # 🏢 BADA BUILDER (बड़ा बिल्डर)
-### *Next-Generation Full-Stack Real-Estate Marketplace & Multi-Role Operations Ecosystem*
+### *Next-Generation Full-Stack Real-Estate Marketplace, 3D Spatial Visualization & Enterprise Operations Ecosystem*
 
 [![Live Demo](https://img.shields.io/badge/Live_Platform-bada--builder--frontend.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://bada-builder-frontend.vercel.app)
 [![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-6.3-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B%20LTS-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.18-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon%20%2F%20RDS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon%20%2F%20AWS%20RDS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3%20%7C%20RDS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
-[![Razorpay](https://img.shields.io/badge/Payments-Razorpay%20Integrated-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)](https://razorpay.com/)
-[![Socket.io](https://img.shields.io/badge/WebSockets-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
+[![Three.js](https://img.shields.io/badge/3D_Engine-Three.js%20%2B%20Fiber-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![Razorpay](https://img.shields.io/badge/Payments-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)](https://razorpay.com/)
+[![WebSockets](https://img.shields.io/badge/Realtime-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io/)
 [![License](https://img.shields.io/badge/License-ISC-green?style=for-the-badge)](LICENSE)
 
 <p align="center">
-  <a href="#-project-overview">Overview</a> •
+  <a href="#-executive-summary">Executive Summary</a> •
+  <a href="#-complete-feature-matrix">Feature Matrix</a> •
+  <a href="#-5-role-based-dashboards">Role Portals</a> •
+  <a href="#-3d-spatial-view--live-grouping">3D & Group Buying</a> •
+  <a href="#-construction-tenders--procurement-hub">Tenders Hub</a> •
+  <a href="#-short-stay--vacation-rentals">Short Stay</a> •
   <a href="#-system-architecture">Architecture</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-key-modules--features">Features</a> •
-  <a href="#-frontend--backend-structure">Structure</a> •
-  <a href="#-api-documentation">API Docs</a> •
-  <a href="#-database-design">Database</a> •
-  <a href="#-installation--setup-guide">Setup Guide</a> •
-  <a href="#-security-implementation">Security</a>
+  <a href="#-complete-api-reference">API Reference</a> •
+  <a href="#-database-architecture">Database</a> •
+  <a href="#-setup--installation">Setup</a>
 </p>
 
 </div>
@@ -35,121 +37,246 @@
 <details open>
 <summary><b>Click to expand / collapse navigation</b></summary>
 
-1. [Project Overview](#-project-overview)
-   - [Mission & Purpose](#mission--purpose)
-   - [Target Ecosystem & Personas](#target-ecosystem--personas)
-2. [Key Modules & Features](#-key-modules--features)
-3. [Tech Stack Matrix](#-tech-stack-matrix)
-4. [System Architecture](#-system-architecture)
-   - [High-Level Topology](#high-level-topology)
-   - [Authentication & OTP Workflow](#authentication--otp-workflow)
-   - [Site Visit Booking & Payment Cycle](#site-visit-booking--payment-cycle)
-5. [Frontend & Backend Structure](#-frontend--backend-structure)
-   - [Frontend Directory Map](#frontend-directory-map)
-   - [Backend Directory Map](#backend-directory-map)
-6. [Frontend Documentation](#-frontend-documentation)
-7. [Backend Documentation](#-backend-documentation)
-8. [API Documentation](#-api-documentation)
-   - [Authentication & OTP](#authentication--otp-routes)
-   - [Properties & Management](#properties-routes)
-   - [Bookings & Payments](#bookings--payments-routes)
-   - [Live Grouping](#live-grouping-routes)
-   - [Short-Stay Rentals](#short-stay-routes)
-   - [Real-time Chat, Reviews & Wishlists](#communication--engagement-routes)
-   - [Admin Oversight & Operations](#admin-oversight-routes)
-9. [Database Design & Schema](#-database-design--schema)
-   - [Entity-Relationship Diagram](#entity-relationship-diagram)
-   - [Core Tables & Schema Definitions](#core-tables--schema-definitions)
-   - [Database Performance Indexes](#database-performance-indexes)
-10. [Installation & Setup Guide](#-installation--setup-guide)
-11. [Deployment Guide](#-deployment-guide)
-12. [Security & Hardening](#-security--hardening)
-13. [Performance Optimizations](#-performance-optimizations)
-14. [Future Roadmap & Contributing](#-future-roadmap--contributing)
+1. [Executive Summary](#-executive-summary)
+2. [Complete Feature Matrix (All 14 Core Verticals)](#-complete-feature-matrix)
+3. [5 Role-Based Dashboards & Workspaces](#-5-role-based-dashboards)
+   - [Admin Superuser Command Center](#1-admin-superuser-command-center)
+   - [Developer Enterprise Portal](#2-developer-enterprise-portal)
+   - [Broker & Agent CRM](#3-broker--agent-crm)
+   - [Employee Operations Desk](#4-employee-operations-desk)
+   - [User & Investor Portal](#5-user--investor-portal)
+4. [3D Spatial Visualization & Live Group Buying](#-3d-spatial-view--live-grouping)
+5. [Construction Tenders & Vendor Procurement Hub](#-construction-tenders--procurement-hub)
+6. [Short Stay & Vacation Rental Engine](#-short-stay--vacation-rentals)
+7. [Investments & Data Centres Platform](#-investments--data-centres-platform)
+8. [Reverse Marketplace (Live Requirements)](#-reverse-marketplace-live-requirements)
+9. [Financial Calculators & REIT Research Hub](#-financial-calculators--reit-research-hub)
+10. [Promotions, Referral Engine & Civic Complaints](#-promotions-referral-engine--civic-complaints)
+11. [System Architecture & Visual Workflows](#-system-architecture)
+    - [High-Level Topology](#high-level-topology)
+    - [Interactive 3D Unit Reservation & Razorpay Flow](#interactive-3d-unit-reservation--razorpay-flow)
+    - [Tender Bidding & Contract Award Cycle](#tender-bidding--contract-award-cycle)
+    - [Account Deletion Audit & GDPR Workflow](#account-deletion-audit--gdpr-workflow)
+12. [Complete Frontend & Backend Folder Map](#-complete-frontend--backend-folder-map)
+13. [Complete API Reference](#-complete-api-reference)
+14. [Database Architecture & ER Model](#-database-architecture)
+15. [Setup & Installation](#-setup--installation)
+16. [Security, Hardening & Compliance](#-security-hardening--compliance)
+17. [Author & Production Credits](#-author--production-credits)
 
 </details>
 
 ---
 
-## 🌐 Project Overview
+## 🌐 Executive Summary
 
-### Mission & Purpose
+**Bada Builder** (बड़ा बिल्डर) is a full-scale real estate ecosystem engineered to replace fragmented legacy property portals. It connects **Individual Buyers/Renters**, **Real Estate Developers**, **Brokers/Agents**, **Construction Contractors/Vendors**, **Short-Stay Hosts**, and **Institutional Investors** into one unified, real-time operating platform.
 
-**Bada Builder** is an enterprise-grade real-estate technology platform built to bridge the gap between individual buyers, certified brokers, top-tier developers, and institutional investors. 
-
-By unifying end-to-end property discovery, interactive **3D unit walkthroughs**, **bulk group-buying discounts**, verified **site-visit booking with escrow-style payments**, and **5 role-based operating portals**, Bada Builder delivers a modern real estate marketplace experience.
-
-> [!NOTE]
-> **Production Status:** Deployed and operational with client-side applications on **Vercel** and microservices/APIs deployed on **AWS (EC2, S3, RDS)** and cloud hosting providers.
-
----
-
-### Target Ecosystem & Personas
+### Core Value Pillars
 
 ```mermaid
 mindmap
   root((Bada Builder Ecosystem))
-    Individual Buyers & Renters
-      Verified Listings Discovery
-      3D Spatial Property Walkthroughs
-      Live Group Buying Tier Discounts
-      Instant Site Visit Booking
-    Property Developers
-      Bulk Unit Inventory Management
-      Interactive 3D Masterplan Uploads
-      Direct Lead Capture & Tracking
-      Verified Investor Access
-    Real Estate Brokers
-      Role-Scoped Broker CRM
-      Client Lead Attribution
-      Site-Visit Schedule Management
-      Commission & Agreement Visibility
-    Short-Stay Hosts & Guests
-      Calendar & Booking Engine
-      Automated Check-in / Verification
-      Guest Feedback & Review Ratings
-    Platform Administrators
-      Full KYC Verification Engine
-      Listing Moderation & Approvals
-      Financial Auditing & Analytics
-      Civic Complaint Escalation System
+    3D Spatial Tech & Group Buying
+      Interactive Three.js Unit Models
+      Status Color Coding (Available/Booked/Hold)
+      Collective Group Volume Discounts
+      0.5% Token Advance via Razorpay
+    Full Lifecycle Tenders
+      Public & Private Construction RFPs
+      Blind Bidding & Verification
+      Encrypted Vendor-Issuer Chat
+      Milestone-Based Escrow Release
+    5 Role-Gated Dashboards
+      Admin Central Hub & S3 Asset Manager
+      Developer Inventory & Lead Attribution
+      Broker CRM & Commission Tracking
+      Employee Attendance & Geo-Logs
+      User / Investor Portfolio
+    Hospitality & Long-Stay
+      Airbnb-Style Vacation Stays
+      Host Revenue & Calendar Sync
+      Long-Live Rental Agreements
+    Institutional Capital & Tools
+      Data Centre Infrastructure
+      15+ KaTeX Financial Calculators
+      REIT Valuation & Modeling Library
 ```
 
 ---
 
-## ⚡ Key Modules & Features
+## ⚡ Complete Feature Matrix
 
-| Module | Core Capability | Tech Highlight |
-|---|---|---|
-| 🏢 **5 Role Dashboards** | Custom workspace views for **Admin**, **Developer**, **Broker**, **Employee**, and **User** with permission gating. | JWT Claims, Context Guards, Custom Layouts |
-| 👥 **Live Group Buying** | Collective buyer reservations that unlock tiered developer price cuts when participant quotas are met. | Real-time unit lock, dynamic pricing triggers |
-| 🧊 **3D Visualization** | Interactive 3D unit models and spatial layouts rendered directly in modern browsers. | Three.js, React Three Fiber (`@react-three/fiber`, `drei`) |
-| 💳 **Razorpay Checkout** | Automated payment orders and cryptographic signature verification for site visits and subscriptions. | Razorpay Orders API, HMAC SHA-256 verification |
-| 💬 **Real-time Chat** | Low-latency direct messaging between prospective buyers, verified brokers, and developers. | Socket.io WebSockets, MongoDB/PostgreSQL chat logs |
-| 🗺️ **Geospatial Discovery** | Interactive map navigation, radius searches, and reverse geocoding for properties and amenities. | Leaflet, React Leaflet, OpenStreetMap Nominatim proxy |
-| 🏛️ **Civic Complaints** | Transparent neighborhood and civic issue submission and resolution tracking module. | Geo-tagged submissions, state machine tracking |
-| 🧮 **REIT & RE Calculators** | 15+ comprehensive real-estate financial calculators (FFO, NOI, Cap Rate, IRR, Cash-on-Cash). | KaTeX math rendering, dynamic formula evaluation |
+| # | Business Vertical | Key Capabilities | Primary Tech Stack |
+|---|---|---|---|
+| 1 | **3D WebGL Visualization** | Full tower & floorplan 3D exploration with unit-level click-selection and state sync. | Three.js, React Three Fiber (`@react-three/fiber`, `drei`) |
+| 2 | **Live Group Buying** | Tiered developer discounts unlocked dynamically when buyer participation quotas are met. | PostgreSQL dynamic triggers, Razorpay Orders |
+| 3 | **Construction Tenders** | RFP creation, blind bidding, material procurement, milestone releases, and contractor KYC. | Express, PostgreSQL JSONB schemas, WebSockets |
+| 4 | **5 Role Dashboards** | Custom workspaces for Admin, Developer, Broker, Employee, and Buyer with RBAC guards. | JWT Claims, React Context, Protected Routes |
+| 5 | **Short Stay Engine** | Vacation rentals with interactive date search, nightly rate calculator, and host calendar. | Leaflet, Razorpay, PostgreSQL short_stay schema |
+| 6 | **Long-Live Leasing** | Long-term residential & commercial leases with verified agreements and tenant vetting. | React Router, Multer, PostgreSQL |
+| 7 | **Data Centres & Capital** | Direct investments in high-yield data centre infrastructure and syndications with IRR metrics. | Recharts, KaTeX, Financial Modeling engines |
+| 8 | **Reverse Marketplace** | *Live Requirements:* Buyers post exact buying criteria; developers/brokers bid with matching units. | Realtime notifications, Matching algorithms |
+| 9 | **Instant Site Visits** | Calendar booking for physical walkthroughs with pickup coordinate mapping and token deposits. | Leaflet / Nominatim proxy, Razorpay, Nodemailer |
+| 10 | **Real-Time Messaging** | Low-latency chat between buyers, agents, developers, and bidding contractors. | Socket.io WebSockets, Persistent Chat DB |
+| 11 | **REIT Knowledge Hub** | In-depth research reports on REIT taxation, financial modeling, compliance, and valuation. | KaTeX mathematical formulas, Markdown docs |
+| 12 | **15+ Financial Calculators** | DCF, NPV, FFO, AFFO, NOI, Cap Rate, GRM, and Mortgage amortization calculators. | Dynamic JS Math, KaTeX formula renderers |
+| 13 | **Growth & Coupons** | Referral bonuses with tracked conversion links and promotional coupon validation. | PostgreSQL coupon engine, Client toast notifications |
+| 14 | **Civic Grievances** | Public complaint logging for civic defects with geocoding and resolution state tracking. | Geocoding API, Admin moderation pipeline |
 
 ---
 
-## 🛠️ Tech Stack Matrix
+## 👥 5 Role-Based Dashboards
 
-### Frontend Layer
-- **Core:** [React 18 / 19](https://react.dev/), [Vite 6](https://vitejs.dev/) (ESModules, Lightning-fast HMR)
-- **Routing:** [React Router DOM v6/v7](https://reactrouter.com/)
-- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/), [Headless UI](https://headlessui.com/), [Lucide React](https://lucide.dev/), [React Icons](https://react-icons.github.io/react-icons/)
-- **Motion & 3D:** [Framer Motion](https://www.framer.com/motion/), [GSAP](https://gsap.com/), [Three.js](https://threejs.org/), [React Three Fiber](https://r3f.docs.pmnd.rs/)
-- **Real-Time & Networking:** [Socket.io Client](https://socket.io/), [Axios](https://axios-http.com/)
-- **Spatial & Analytics:** [React Leaflet](https://react-leaflet.js.org/), [Recharts](https://recharts.org/), [KaTeX](https://katex.org/)
+### 1. Admin Superuser Command Center
+* **Route:** `/admin`
+* **Listing Approvals:** Review individual, developer, and Bada Builder inventory before going live.
+* **Broker & Developer KYC:** Authenticate licenses, government registrations, and corporate documents.
+* **Employee Attendance & Geo-Tracking:** Live logs showing check-in/out timestamps and employee location coordinates.
+* **S3 / Media Library Management:** Centralized asset management for brochures, floor plans, and marketing assets.
+* **Platform Analytics & Traffic:** Real-time visitor logs, referral tracking, and revenue analytics.
+* **Coupon & Promotion Validator:** Manage and audit promotional codes and referral distributions.
 
-### Backend Layer
-- **Runtime & Framework:** [Node.js (LTS)](https://nodejs.org/), [Express.js](https://expressjs.com/)
-- **Database Engine:** [PostgreSQL](https://www.postgresql.org/) (Hosted on **Neon DB** & **AWS Aurora/RDS**)
-- **Database Client:** [pg (node-postgres)](https://node-postgres.com/) with optimized connection pooling
-- **Security & Validation:** [Helmet.js](https://helmetjs.github.io/), [CORS](https://expressjs.com/en/resources/middleware/cors.html), [express-rate-limit](https://express-rate-limit.mintlify.app/), [express-validator](https://express-validator.github.io/docs/)
-- **Auth & Crypto:** [JSON Web Tokens (JWT)](https://jwt.io/), [bcryptjs](https://www.npmjs.com/package/bcryptjs)
-- **Storage & Media:** [AWS S3](https://aws.amazon.com/s3/), [Cloudinary SDK](https://cloudinary.com/), [Multer](https://github.com/expressjs/multer)
-- **Payments & Communication:** [Razorpay Node SDK](https://razorpay.com/docs/), [Nodemailer](https://nodemailer.com/), [Brevo SMTP](https://www.brevo.com/)
+### 2. Developer Enterprise Portal
+* **Route:** `/developer-dashboard`
+* **Inventory Control:** Bulk upload towers, units, commercial spaces, and parking spots.
+* **3D Model Integration:** Connect 3D WebGL assets to live inventory slots.
+* **Lead Attribution & CRM:** Track inquiries by traffic source, site visits, and scheduled calls.
+* **Marketing Asset Hub:** Download branded brochures and collateral.
+
+### 3. Broker & Agent CRM
+* **Route:** `/broker/dashboard` (Onboarding: `/join-as-broker`)
+* **Client Lead Pipeline:** Attribution tracking for referred clients and scheduled site visits.
+* **Inventory Catalog:** Direct access to developer projects with pre-negotiated commission tiers.
+* **Booking Coordinator:** Schedule chauffeur pickups and guided visits for buyers.
+
+### 4. Employee Operations Desk
+* **Route:** `/employee-dashboard`
+* **Automated Daily Attendance:** Instant geo-verified check-in and check-out logs.
+* **Lead Follow-Up Queue:** Assigned buyer inquiries, verification requests, and task deadlines.
+* **Civic Complaint Triaging:** Initial inspection and assignment of neighborhood civic issues.
+
+### 5. User & Investor Portal
+* **Route:** `/profile`
+* **Joined Live Groups:** Live progress bar tracking active group buy discount tiers.
+* **Short Stay Host & Guest Dashboards:** Upcoming trips, reservation history, and listing management.
+* **Investor Portfolio (`/profile/investments`):** P&L tracking, dividend distributions, and yield performance.
+* **Secure Account Deletion (GDPR/Compliance):** Multi-step verification with feedback logging and IP recording.
+
+---
+
+## 🧊 3D Spatial View & Live Group Buying
+
+The Live Grouping and 3D View system solves the two biggest challenges in real estate: **spatial visualization** and **bulk affordability**.
+
+```mermaid
+graph LR
+    A["User browses Live Grouping (/exhibition/live-grouping)"] --> B["Clicks 'Join This Group'"]
+    B --> C["Navigates to 3D View (/exhibition/3d-view)"]
+    C --> D["Three.js Renders Tower & Unit Coordinates"]
+    D --> E{"Inspect Unit State"}
+    E -->|Green| F["Available -> Click to Select"]
+    E -->|Red| G["Booked -> Disabled"]
+    E -->|Yellow| H["On Hold -> Locked"]
+    E -->|Amber/Slate| I["Commercial / Parking"]
+    F --> J["Razorpay 0.5% Token Advance"]
+    J --> K["Unit Locked & Group Counter Increments"]
+    K --> L["Threshold Met -> Tiered Discount Unlocked!"]
+```
+
+* **Interactive Features:** Orbit controls, pan/zoom, sky lighting, dynamic camera transitions.
+* **Status Sync:** Available (Green), Booked (Red), Hold (Yellow), Commercial Shops (Amber), Parking (Slate).
+* **Payment Integration:** 0.5% advance booking fee computed automatically and captured via Razorpay.
+
+---
+
+## 🏗️ Construction Tenders & Vendor Procurement Hub
+
+The Bada Builder Tendering Suite (`/tenders`) digitizes construction contracting from initial RFP to final milestone payout:
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Dev as Developer / Issuer
+    participant App as Tenders Portal
+    participant API as Backend API
+    actor Vendor as Contractor / Vendor
+    participant DB as PostgreSQL
+
+    Dev->>App: Create Tender (RFP) { Category, Budget, Timeline, Blueprints, is_blind }
+    App->>API: POST /api/tenders
+    API->>DB: INSERT into tenders (status: 'Pending' -> 'Approved')
+    
+    Vendor->>App: Browse active tenders (/tenders/vendor)
+    Vendor->>API: POST /api/bids { tender_id, bid_amount, timeline, proposal_docs }
+    API->>DB: INSERT into bids (status: 'Submitted')
+
+    Dev->>App: Review bids (Blind mode hides vendor names to prevent bias)
+    Dev->>App: Open private negotiation (/tenders/messages)
+    App->>API: Realtime Socket.io TenderChat
+    
+    Dev->>API: PATCH /api/tenders/:id/award { bid_id, advance_payment }
+    API->>DB: Update tender (awarded_bid_id, project_status: 'Contract_Created')
+    API-->>Vendor: Instant notification & contract generation
+```
+
+---
+
+## 🏨 Short Stay & Vacation Rentals
+
+Built as a native alternative to platforms like Airbnb, the Short Stay module (`/short-stay`, `/hosting`) empowers owners to monetize properties on a nightly basis:
+
+* **Guest Discovery:** Multi-parameter search by City, Check-in/Check-out dates, and Guest count.
+* **Dynamic Pricing Engine:** Calculates total cost (`nights × nightly_rate + cleaning_fee + security_deposit`).
+* **Host Operations (`/hosting`):**
+  - **Hosting Calendar:** Interactive date blocking and seasonal price adjustments.
+  - **Hosting Revenue:** Comprehensive breakdown of past payouts and projected earnings.
+  - **Hosting Messages:** Dedicated communication channel between host and incoming travelers.
+* **Instant Razorpay Checkout:** Full reservation fee captured, instant confirmation email sent via Brevo SMTP.
+
+---
+
+## 🏢 Investments & Data Centres Platform
+
+Bada Builder bridges retail and high-net-worth capital into institutional-grade assets (`/investments`):
+
+* **Data Centre Opportunities (`/investments/data-centres`):** Fractional and direct stakes in enterprise tier-3/tier-4 data centre developments.
+* **Commercial & Warehousing Syndicates:** High-yield rental properties with blue-chip corporate tenants.
+* **Investor Dashboard (`/investor-dashboard`):** Real-time monitoring of cash-on-cash yield, internal rate of return (IRR), and quarterly dividend payouts.
+
+---
+
+## 🔄 Reverse Marketplace (Live Requirements)
+
+Instead of buyers endlessly searching through static listings, the **Live Requirements** module (`/live-requirement`) flips the dynamic:
+
+1. **Buyer Posts Requirement:** Specifies budget range, preferred localities, BHK type, possession timeline, and financing status.
+2. **Algorithmic Matching:** System alerts registered developers and certified brokers possessing matching units.
+3. **Direct Pitching:** Developers and brokers submit custom offers and direct invitation links to the buyer's inbox.
+
+---
+
+## 🧮 Financial Calculators & REIT Research Hub
+
+### Comprehensive Financial Calculators
+Integrated with **KaTeX** for dynamic LaTeX math rendering:
+* **DCF (Discounted Cash Flow):** Intrinsic property valuation based on multi-year projected cash flows and terminal capitalization rates.
+* **NPV (Net Present Value):** Capital budgeting evaluation for multi-stage real estate developments.
+* **FFO & AFFO:** Standard REIT metrics measuring operating cash generated by real-estate holdings.
+* **NOI (Net Operating Income):** Rental revenue minus all necessary operating expenses.
+* **Cap Rate & GRM:** Capitalization Rate and Gross Rent Multiplier for rapid market comparisons.
+* **Mortgage & Home Loan Amortization:** Monthly principal vs. interest breakdown with interactive schedules.
+
+### REIT & Industry Research Hub (`/pages/Report Data`)
+* In-depth documentation on **REIT Valuation & Compliance**, **Taxation Frameworks**, **Stakeholder Communication**, and **Land Acquisition & Management (LAM)**.
+
+---
+
+## 🎁 Promotions, Referral Engine & Civic Complaints
+
+* **Refer & Earn Program (`/refer-earn`):** Users share unique referral codes; commissions and platform credits are automatically attributed upon successful booking or transaction.
+* **Promotional Coupons (`/coupon-validator`):** Dynamic coupon code system with expiry dates, minimum spend thresholds, and category restrictions.
+* **Civic Complaints Registry (`/register-complaint`):** Community grievance submission for civic defects (illegal encroachments, sanitation, roads). Integrated with status tracking and administrative resolution logs.
 
 ---
 
@@ -159,207 +286,189 @@ mindmap
 
 ```mermaid
 flowchart TD
-    subgraph ClientTier["Client Presentation Tier (Vercel)"]
-        UI["React 18 + Vite SPA"]
-        Three["Three.js 3D Canvas"]
-        SocketC["Socket.io Client"]
-        MapC["Leaflet / OSM View"]
+    subgraph ClientLayer["Frontend Layer (React 18 + Vite | Vercel)"]
+        SPA["React SPA Router"]
+        WebGL["Three.js 3D Viewport"]
+        SocketClient["Socket.io Client"]
+        LeafletMap["Leaflet Map Engine"]
     end
 
-    subgraph APITier["Application & API Gateway Tier (AWS EC2 / Render)"]
-        Gateway["Express.js HTTP / WebSocket Gateway"]
-        AuthM["Auth & OTP Middleware (JWT, bcrypt)"]
-        RateM["Security & Rate Limiting (Helmet, RateLimit)"]
-        UploadM["Multer Memory Stream"]
+    subgraph GatewayLayer["API & Security Layer (Express | AWS EC2 / Render)"]
+        Gateway["Express Gateway /server.js"]
+        Helmet["Helmet Security Headers"]
+        RateLimit["Rate Limiting (Auth/OTP/Mutations)"]
+        JWTMiddleware["JWT & Role Authorization Guard"]
+        Upload["Multer S3/Cloudinary Memory Stream"]
         
-        Gateway --> RateM
-        RateM --> AuthM
-        AuthM --> UploadM
+        Gateway --> Helmet --> RateLimit --> JWTMiddleware --> Upload
     end
 
-    subgraph ServiceTier["External Integrations & Services"]
-        RP["Razorpay Payment Gateway"]
-        Cloudinary["AWS S3 / Cloudinary Media CDN"]
-        SMTP["Brevo / SMTP Email Daemon"]
-        OSM["OpenStreetMap Nominatim Geocoding"]
+    subgraph ServiceLayer["External Microservices & SDKs"]
+        RZP["Razorpay Payment Gateway"]
+        S3["AWS S3 / Cloudinary Media CDN"]
+        SMTP["Brevo SMTP Mail Service"]
+        Nominatim["OpenStreetMap Nominatim Geocoding"]
     end
 
-    subgraph DataTier["Data Persistence Tier (AWS RDS / Neon DB)"]
-        PG[("PostgreSQL Database Pool\n(SSL Encrypted, Indexed)")]
+    subgraph PersistenceLayer["Database Layer (PostgreSQL | Neon / AWS RDS)"]
+        DB[("PostgreSQL Connection Pool\n(SSL Encrypted, 20+ Tables, Indexed)")]
     end
 
-    UI -->|REST HTTPS| Gateway
-    SocketC <-->|WSS Bi-directional| Gateway
-    
-    Gateway --> RP
-    Gateway --> Cloudinary
+    SPA -->|HTTPS REST| Gateway
+    WebGL -->|Dynamic Scene Query| Gateway
+    SocketClient <-->|WSS Realtime| Gateway
+    Gateway --> RZP
+    Gateway --> S3
     Gateway --> SMTP
-    Gateway --> OSM
-    Gateway -->|Parameterized SQL Pool| PG
+    Gateway --> Nominatim
+    Gateway -->|Parameterized SQL Queries| DB
 ```
 
 ---
 
-### Authentication & OTP Workflow
+### Account Deletion Audit & GDPR Workflow
 
 ```mermaid
 sequenceDiagram
     autonumber
-    actor User as Client Browser
-    participant API as Express Auth API
-    participant DB as PostgreSQL
-    participant Mail as Brevo SMTP Service
+    actor User as Authenticated User
+    participant App as Profile (Danger Zone)
+    participant API as /api/deleteAccount
+    participant DB as PostgreSQL (account_deletions)
 
-    User->>API: POST /api/otp/send { email }
-    API->>API: Generate secure 6-digit numeric OTP
-    API->>DB: Store hashed OTP with 5-min TTL
-    API->>Mail: Dispatch transactional verification email
-    Mail-->>User: Delivers 6-digit verification code
-
-    User->>API: POST /api/auth/register { email, password, otp, details }
-    API->>DB: Validate OTP & TTL match
-    API->>API: Salt & Hash password (bcrypt 10 rounds)
-    API->>DB: INSERT into users table
-    API->>API: Sign JWT with user_id, user_type, expiry (7d)
-    API-->>User: Return HTTP 201 { token, user profile }
-    Note over User,API: Subsequent requests attach 'Authorization: Bearer <token>'
+    User->>App: Clicks "Delete Account Forever"
+    App->>User: Prompts for Password / OTP Verification
+    App->>User: Displays optional exit survey reason dropdown
+    User->>App: Confirms deletion with reason
+    App->>API: POST /api/delete-account { password, reason }
+    API->>API: Verify user credentials & extract client IP + User-Agent
+    API->>DB: INSERT into account_deletions (user_id, email, reason, ip_address, user_agent)
+    API->>DB: UPDATE users SET is_deleted=TRUE, email=CONCAT('deleted_', id)
+    API-->>App: HTTP 200 { message: 'Account securely purged' }
+    App->>User: Clears localStorage & redirects to Home
 ```
 
 ---
 
-### Site Visit Booking & Payment Cycle
-
-```mermaid
-sequenceDiagram
-    autonumber
-    actor Buyer as Buyer
-    participant Client as React App
-    participant API as Backend API
-    participant RZP as Razorpay Gateway
-    participant DB as PostgreSQL
-    participant Host as Broker / Admin
-
-    Buyer->>Client: Select property & date/time slot
-    Client->>API: POST /api/bookings { property_id, date, time, attendees }
-    API->>RZP: orders.create({ amount, currency: 'INR', receipt })
-    RZP-->>API: Return { razorpay_order_id }
-    API->>DB: INSERT booking record (status: 'pending')
-    API-->>Client: Return { booking_id, razorpay_order_id }
-
-    Client->>RZP: Open Razorpay checkout modal
-    Buyer->>RZP: Authorizes payment (UPI / Card / Netbanking)
-    RZP-->>Client: Return { payment_id, order_id, signature }
-
-    Client->>API: POST /api/bookings/verify-payment { order_id, payment_id, signature }
-    API->>API: Cryptographic HMAC SHA-256 signature verification
-    alt Signature Matches
-        API->>DB: UPDATE bookings SET payment_status='paid', status='confirmed'
-        API->>Host: Notify Broker/Developer via Email + Socket.io
-        API-->>Client: HTTP 200 { status: 'confirmed', booking }
-    else Signature Invalid
-        API-->>Client: HTTP 400 { error: 'Payment signature tampered' }
-    end
-```
-
----
-
-## 📂 Frontend & Backend Structure
-
-### Frontend Directory Map
+## 📂 Complete Frontend & Backend Folder Map
 
 <details>
-<summary><b>📁 Click to view complete bada-builder-frontend file tree</b></summary>
+<summary><b>📁 Click to view complete Frontend directory structure</b></summary>
 
 ```
 bada-builder-frontend/
-├── public/                          # Static public assets
-│   ├── _redirects                  # SPA routing rules for Netlify/Vercel
+├── public/
+│   ├── _redirects                  # Client-side routing redirects
 │   ├── favicon.ico
 │   ├── logoicon.png
-│   └── BadaBuilder_Marketing.mp4   # Platform promotional media
+│   └── BadaBuilder_Marketing.mp4
 ├── src/
-│   ├── assets/                     # Application media & brochures
-│   ├── components/                 # Reusable UI components
-│   │   ├── Header/                 # Multi-role responsive navigation
-│   │   ├── Footer/                 # Platform footer with legal & site links
-│   │   ├── HeroSection/            # Modern search & hero banner
-│   │   ├── PropertyCard/           # Grid & list property item cards
-│   │   ├── PropertyForm/           # Multi-step property publishing wizard
-│   │   ├── ChatBox/ & ChatList/    # Socket.io live chat drawer
-│   │   ├── LeadModal/              # High-converting lead generation modal
+│   ├── components/                 # Reusable component library
+│   │   ├── Header/                 # Dynamic role-aware navigation
+│   │   ├── Footer/                 # Footer links and regulatory disclaimers
+│   │   ├── HeroSection/            # Main search bar & callouts
+│   │   ├── PropertyCard/           # Grid/list display components
+│   │   ├── PropertyForm/           # Multi-step property posting wizard
+│   │   ├── ChatBox/ & ChatList/    # Real-time WebSocket chat modal
+│   │   ├── LeadModal/              # High-converting lead modal
 │   │   ├── Map/                    # Leaflet LocationPicker & PropertyMap
-│   │   ├── SubscriptionGuard/      # Route & tier access control guard
-│   │   └── ui/                     # Primitives (Modals, Badges, Dropdowns)
-│   ├── pages/                      # Page view controllers
-│   │   ├── Admin/                  # Admin suite (Approvals, Users, Bookings)
-│   │   ├── Exhibition/             # 3D Showcase & Live Grouping pages
-│   │   ├── ShortStay/              # Short-term accommodation module
+│   │   ├── SubscriptionGuard/      # Tier access gate
+│   │   └── ui/                     # Badges, modals, form inputs
+│   ├── pages/                      # Page components
+│   │   ├── Admin/                  # Admin suite (Approvals, Attendance, Traffic)
+│   │   ├── Exhibition/             # 3D Spatial Walkthroughs & Live Grouping
+│   │   ├── ShortStay/              # Vacation rentals, Trips & Hosting Dashboard
+│   │   ├── Tenders/                # Construction Tendering, Bids & Vendor SaaS
+│   │   ├── Investments/            # Data Centre & Capital syndication pages
 │   │   ├── Complaints/             # Civic complaints registry
-│   │   ├── Investments/            # Data centres & investment opportunities
-│   │   ├── calculator/             # 15+ real-estate financial calculators
-│   │   ├── ProfilePage.jsx         # User profile & account management
-│   │   └── Projects.jsx            # Property marketplace with multi-filters
-│   ├── context/                    # Global React Context providers
-│   │   ├── AuthContext.jsx         # Persistent token & auth state
-│   │   ├── FavoritesContext.jsx    # Client wishlists & bookmarks
-│   │   └── PreloaderContext.jsx    # Global loading triggers
-│   ├── services/                   # Axios API service instances
-│   ├── utils/                      # Formatters, calculations & validators
-│   ├── App.jsx                     # Route declarations
-│   └── main.jsx                    # Application entry
-├── .env.example                    # Frontend environment template
+│   │   ├── Marketing/              # Developer marketing packages
+│   │   ├── Report Data/            # Educational & REIT research reports
+│   │   ├── calculator/             # DCF, NPV, FFO, NOI, CapRate calculators
+│   │   ├── ProfilePage.jsx         # Profile management & GDPR deletion
+│   │   ├── Projects.jsx            # Multi-parameter property discovery
+│   │   ├── PostProperty.jsx        # Property listing upload form
+│   │   ├── BookSiteVisit.jsx       # Site visit booking & Razorpay checkout
+│   │   ├── LiveRequirement.jsx     # Reverse marketplace buyer requests
+│   │   ├── JoinAsBroker.jsx        # Broker onboarding portal
+│   │   └── SubscriptionPlans.jsx   # Tiered individual & developer plans
+│   ├── context/                    # React Context (Auth, Favorites, Preloader)
+│   ├── services/                   # Axios API clients
+│   ├── utils/                      # Mathematical helpers & validators
+│   ├── App.jsx                     # Complete application routes (100+ routes)
+│   └── main.jsx                    # Vite app entry
+├── .env.example
 ├── package.json
-├── tailwind.config.js
 └── vite.config.js
 ```
+
 </details>
 
-### Backend Directory Map
-
 <details>
-<summary><b>📁 Click to view complete bada-builder-backend file tree</b></summary>
+<summary><b>📁 Click to view complete Backend directory structure</b></summary>
 
 ```
 bada-builder-backend/
 ├── config/
-│   ├── database.js                 # PostgreSQL connection pool with SSL
-│   └── plans.js                    # Subscription pricing tiers & feature matrix
+│   ├── database.js                 # PostgreSQL pg.Pool with SSL configuration
+│   └── plans.js                    # Subscription tiers & credit allocations
 ├── middleware/
-│   ├── auth.js                     # JWT verification & role authorization (isAdmin)
-│   └── upload.js                   # Multer buffer stream config for S3/Cloudinary
-├── routes/
-│   ├── auth.js                     # Registration, login, profile management
-│   ├── otp.js                      # Email OTP generation & verification
-│   ├── properties.js               # Property CRUD, filtering, pagination
-│   ├── bookings.js                 # Site-visit scheduling & Razorpay capture
-│   ├── subscriptions.js            # Tiered plans & recurring membership orders
-│   ├── live-grouping.js            # Live group buying & threshold unlock engine
-│   ├── shortStay.js                # Vacation rental & host booking endpoints
-│   ├── chat.js                     # Conversation history & message persistence
-│   ├── complaints.js               # Civic complaint lifecycle endpoints
-│   ├── admin.js                    # Platform metrics, revenue & user management
-│   ├── deleteAccount.js            # Account deletion logging & audit trail
-│   └── proxy.js                    # Geocoding proxy for OpenStreetMap
+│   ├── auth.js                     # JWT verification, isAdmin, optionalAuth
+│   └── upload.js                   # Multer streaming to S3 / Cloudinary
+├── routes/                         # 40+ REST API Route Controllers
+│   ├── admin.js                    # Superuser controls & financial stats
+│   ├── adminProperties.js          # Listing moderation pipeline
+│   ├── analytics.js                # Traffic monitoring & visit tracking
+│   ├── auth.js                     # Registration, login, profile updates
+│   ├── bids.js                     # Contractor bidding submissions
+│   ├── bookings.js                 # Site visits & Razorpay payment verification
+│   ├── brokers.js                  # Broker profiles, approvals & commission
+│   ├── chat.js                     # Socket.io chat history & threads
+│   ├── complaints.js               # Civic complaints registration & state
+│   ├── deleteAccount.js            # Account deletion tracking with IP logging
+│   ├── developers.js               # Developer project inventory & analytics
+│   ├── employees.js                # Employee management & task queues
+│   ├── externalProjectVisits.js    # Off-platform developer project tours
+│   ├── favorites.js                # Bookmark toggling & user saved items
+│   ├── investments.js              # Data centre & syndicate opportunities
+│   ├── live-grouping.js            # Group buying & dynamic pricing unlock
+│   ├── live-requirements.js        # Reverse marketplace buyer requests
+│   ├── marketing.js                # Marketing package orders
+│   ├── mediaLibrary.js             # AWS S3 media uploads & management
+│   ├── notifications.js            # In-app notification triggers
+│   ├── offersAndCoupons.js         # Promotional discount validation
+│   ├── otp.js                      # 6-digit email OTP dispatch & verification
+│   ├── photographer.js             # Real-estate photo booking service
+│   ├── properties.js               # Property CRUD, filters, geolocation
+│   ├── referEarn.js                # User referral program tracking
+│   ├── rentalProperties.js         # Long-term lease listings
+│   ├── reviews.js                  # Property feedback & star ratings
+│   ├── shortStay.js                # Vacation rental discovery & reservations
+│   ├── shortStayReviews.js         # Host & guest reviews
+│   ├── subscriptions.js            # Tiered membership order generation
+│   ├── tenderChat.js               # Encrypted vendor-issuer tender chat
+│   ├── tenders.js                  # Tender creation, blind bidding & awards
+│   ├── users.js                    # User stats & avatar upload
+│   └── vendorSaaS.js               # Contractor SaaS operations hub
 ├── services/
-│   ├── razorpay.js                 # Razorpay order generation & crypto verification
-│   ├── cloudinary.js               # Media upload stream & transformation
-│   ├── bookingEmailService.js      # Booking confirmation email templates
+│   ├── razorpay.js                 # Razorpay API client & HMAC SHA-256 verifier
+│   ├── cloudinary.js               # Cloudinary image uploader
+│   ├── bookingEmailService.js      # Site-visit confirmation emails
+│   ├── groupBookingEmailService.js # Group buying milestone alerts
 │   └── shortStayEmailService.js    # Traveler check-in automation
 ├── scripts/
-│   ├── migrate.js                  # Automated SQL migration runner
-│   └── create-admin.js            # Seed initial platform superuser
-├── utils/
-│   ├── sendEmail.js                # Brevo / SMTP transporter client
-│   └── socket.js                   # Socket.io connection handshake & rooms
-├── server.js                       # Primary Express application entrypoint
-├── package.json
-└── render.yaml
+│   ├── create-admin.js            # Seed superuser credentials
+│   ├── create-tender-tables.js    # Tendering schema migrations
+│   ├── export-schema.js           # Automated database documentation exporter
+│   └── sync-db.js                 # Multi-script dependency migration runner
+├── server.js                       # Express application server
+└── package.json
 ```
+
 </details>
 
 ---
 
-## 🔌 API Documentation
+## 🔌 Complete API Reference
 
 ### Base URLs
 ```http
@@ -367,312 +476,259 @@ Development:  http://localhost:5001/api
 Production:   https://bada-builder.onrender.com/api
 ```
 
-> **Authorization:** Protected endpoints require the header `Authorization: Bearer <JWT_TOKEN>`.
+> **Authentication Header:** All protected endpoints require `Authorization: Bearer <JWT_TOKEN>`.
 
 ---
 
-### Authentication & OTP Routes
+### Core Endpoint Directory
 
 <details open>
-<summary><b>Endpoints List</b></summary>
+<summary><b>1. Authentication, OTP & Profiles</b></summary>
 
-| Method | Endpoint | Access | Purpose | Body Payload |
-|---|---|---|---|---|
-| `POST` | `/auth/register` | Public | Register new user account | `{ email, password, name, phone, userType }` |
-| `POST` | `/auth/login` | Public | Authenticate user & issue JWT | `{ email, password }` |
-| `GET` | `/auth/me` | Protected | Fetch authenticated profile details | `None` |
-| `PUT` | `/auth/profile` | Protected | Update profile bio, name, or phone | `{ name, phone, bio }` |
-| `POST` | `/otp/send` | Public | Dispatch 6-digit OTP code to email | `{ email }` |
-| `POST` | `/otp/verify` | Public | Validate OTP submission | `{ email, otp }` |
-
-</details>
-
----
-
-### Properties Routes
-
-<details>
-<summary><b>Endpoints List</b></summary>
-
-| Method | Endpoint | Access | Purpose | Query / Body |
-|---|---|---|---|---|
-| `GET` | `/properties` | Public | Filtered property catalogue | `?type=&location=&minPrice=&maxPrice=&status=` |
-| `GET` | `/properties/:id` | Public | Retrieve single property by ID | `None` |
-| `POST` | `/properties` | Protected | Publish new property | `FormData (multipart): title, type, price, images[]` |
-| `PUT` | `/properties/:id` | Protected | Update listing details | `{ title, price, facilities, description }` |
-| `DELETE` | `/properties/:id` | Protected | Remove listing | `None` |
-| `GET` | `/properties/user/my-properties` | Protected | Fetch user's active listings | `None` |
-
-</details>
-
----
-
-### Bookings & Payments Routes
-
-<details>
-<summary><b>Endpoints List</b></summary>
-
-| Method | Endpoint | Access | Purpose | Body Payload |
-|---|---|---|---|---|
-| `POST` | `/bookings` | Protected | Create site visit & Razorpay order | `{ property_id, visit_date, visit_time, person1_name }` |
-| `POST` | `/bookings/verify-payment` | Protected | Verify Razorpay HMAC signature | `{ razorpay_order_id, razorpay_payment_id, razorpay_signature, booking_id }` |
-| `GET` | `/bookings/my-bookings` | Protected | Retrieve user's booking history | `None` |
-| `POST` | `/subscriptions/create-order` | Protected | Generate subscription purchase | `{ plan_id }` |
-| `POST` | `/subscriptions/verify-payment` | Protected | Validate subscription payment | `{ razorpay_order_id, razorpay_payment_id, razorpay_signature, plan_id }` |
-
-</details>
-
----
-
-### Live Grouping Routes
-
-<details>
-<summary><b>Endpoints List</b></summary>
-
-| Method | Endpoint | Access | Purpose | Details |
-|---|---|---|---|---|
-| `GET` | `/live-grouping` | Public | Fetch all active group purchases | Lists target member quotas and discount tiers |
-| `GET` | `/live-grouping/:id` | Public | Single group project details | Includes interactive 3D model links |
-| `POST` | `/live-grouping` | Admin | Create live grouping project | Admin property creation |
-| `PATCH` | `/live-grouping/:id/join` | Protected | Commit to group purchase unit | Locks unit and increments buyer count |
-
-</details>
-
----
-
-### Communication & Engagement Routes
-
-<details>
-<summary><b>Endpoints List</b></summary>
-
-| Method | Endpoint | Access | Purpose |
+| Method | Endpoint | Access | Description |
 |---|---|---|---|
-| `GET` | `/chat/user-chats` | Protected | List all active conversation threads |
-| `POST` | `/chat` | Protected | Open or find a chat thread with recipient `{ recipient_id }` |
-| `POST` | `/chat/:chatId/message` | Protected | Send message in chat thread `{ content }` |
-| `POST` | `/favorites/toggle` | Protected | Toggle bookmark status for a property `{ property_id }` |
-| `POST` | `/complaints` | Optional Auth | Submit civic issue `{ title, description, category, location }` |
-| `GET` | `/complaints/my-complaints` | Protected | View user's submitted civic complaints |
+| `POST` | `/auth/register` | Public | Register new user account with bcrypt password hashing |
+| `POST` | `/auth/login` | Public | Verify credentials and return 7-day signed JWT |
+| `GET` | `/auth/me` | Protected | Return authenticated user identity and role |
+| `PUT` | `/auth/profile` | Protected | Update profile bio, phone number, and preferences |
+| `POST` | `/otp/send` | Public | Generate & email 6-digit verification code (5-min TTL) |
+| `POST` | `/otp/verify` | Public | Validate email OTP before account activation |
+| `POST` | `/delete-account` | Protected | Log deletion reason, client IP & mark account deleted |
+
+</details>
+
+<details open>
+<summary><b>2. Properties & Marketplace</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/properties` | Public | Search properties with filters (price, BHK, type, location) |
+| `GET` | `/properties/:id` | Public | Retrieve detailed property specification and media gallery |
+| `POST` | `/properties` | Protected | Publish new listing (requires active subscription credits) |
+| `PUT` | `/properties/:id` | Protected | Update property details |
+| `DELETE` | `/properties/:id` | Protected | Remove property listing |
+| `GET` | `/properties/user/my-properties` | Protected | Retrieve all listings owned by authenticated user |
+
+</details>
+
+<details>
+<summary><b>3. Site Visit Bookings & Razorpay Payments</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `POST` | `/bookings` | Protected | Schedule site visit and generate Razorpay payment order |
+| `POST` | `/bookings/verify-payment` | Protected | Verify Razorpay HMAC SHA-256 signature and confirm booking |
+| `GET` | `/bookings/my-bookings` | Protected | Retrieve user's site visit history and status |
+| `POST` | `/subscriptions/create-order` | Protected | Generate Razorpay order for developer or individual plans |
+| `POST` | `/subscriptions/verify-payment` | Protected | Verify subscription payment and credit account |
+
+</details>
+
+<details>
+<summary><b>4. Live Grouping & 3D Model Units</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/live-grouping` | Public | Retrieve active group projects with discount thresholds |
+| `GET` | `/live-grouping/:id` | Public | Detailed group project specs including 3D model path |
+| `POST` | `/live-grouping` | Admin | Publish new group-buying property opportunity |
+| `PATCH` | `/live-grouping/:id/join` | Protected | Reserve unit in 3D scene, pay token, and increment group count |
+
+</details>
+
+<details>
+<summary><b>5. Construction Tenders & Bidding Hub</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/tenders` | Public | List approved public and private tenders |
+| `POST` | `/tenders` | Protected | Create new tender with budget, timeline, documents & blind mode |
+| `GET` | `/tenders/:id` | Protected | Detailed RFP specification and document attachments |
+| `POST` | `/bids` | Protected | Vendor submits pricing proposal and execution timeline |
+| `GET` | `/bids/tender/:tenderId` | Protected | Issuer reviews bids (blind mode masks vendor identities) |
+| `PATCH` | `/tenders/:id/award` | Protected | Award tender to winning contractor & lock advance payment |
+| `POST` | `/tender-chat/send` | Protected | Send message in private tender negotiation room |
+
+</details>
+
+<details>
+<summary><b>6. Short Stay Hospitality</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/short-stay` | Public | Search vacation rentals by city, check-in, check-out & guests |
+| `GET` | `/short-stay/:id` | Public | Single stay details, house rules, and available calendar dates |
+| `POST` | `/short-stay` | Protected | Host publishes new short-term rental property |
+| `POST` | `/short-stay/reserve` | Protected | Reserve vacation stay and process Razorpay transaction |
+| `GET` | `/short-stay/user/my-listings` | Protected | Host listing manager |
+| `GET` | `/short-stay/reservations/host` | Protected | View incoming guest reservations and revenue |
+
+</details>
+
+<details>
+<summary><b>7. Reverse Marketplace (Live Requirements)</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/live-requirements` | Public | Browse active buyer property requirements |
+| `POST` | `/live-requirements` | Protected | Buyer posts specific property budget and location demand |
+| `GET` | `/live-requirements/my` | Protected | View status and developer pitches on user's requirements |
+
+</details>
+
+<details>
+<summary><b>8. Administration & Superuser Controls</b></summary>
+
+| Method | Endpoint | Access | Description |
+|---|---|---|---|
+| `GET` | `/admin/stats` | Admin | Comprehensive platform revenue, user, and listing metrics |
+| `GET` | `/admin/properties` | Admin | List pending, approved, and flagged properties |
+| `PATCH` | `/admin/properties/:id/status` | Admin | Approve or reject submitted property |
+| `GET` | `/admin/traffic-monitoring` | Admin | Real-time IP, user-agent, and visitor route analytics |
+| `GET` | `/admin/employee-attendance` | Admin | Timestamped employee check-in/out and geolocation records |
+| `POST` | `/admin/s3-management/upload` | Admin | Direct upload of marketing collateral to AWS S3 |
 
 </details>
 
 ---
 
-## 🗄️ Database Design & Schema
+## 🗄️ Database Architecture
 
-### Entity-Relationship Diagram
+### Complete Entity-Relationship Diagram
 
 ```mermaid
 erDiagram
-    USERS ||--o{ PROPERTIES : "owns/lists"
+    USERS ||--o{ PROPERTIES : "lists"
     USERS ||--o{ BOOKINGS : "schedules"
-    USERS ||--o{ SUBSCRIPTIONS : "subscribes"
-    USERS ||--o{ REVIEWS : "writes"
-    USERS ||--o{ CHATS : "participates"
-    USERS ||--o{ WISHLISTS : "creates"
+    USERS ||--o{ SUBSCRIPTIONS : "purchases"
+    USERS ||--o{ TENDERS : "issues"
+    USERS ||--o{ BIDS : "submits"
+    USERS ||--o{ SHORT_STAY_PROPERTIES : "hosts"
+    USERS ||--o{ SHORT_STAY_BOOKINGS : "reserves"
+    USERS ||--o{ LIVE_REQUIREMENTS : "submits"
+    USERS ||--o{ ACCOUNT_DELETIONS : "audited_in"
     USERS ||--o{ COMPLAINTS : "files"
-    
+    USERS ||--o{ CHATS : "participates"
+
     PROPERTIES ||--o{ BOOKINGS : "receives"
     PROPERTIES ||--o{ REVIEWS : "receives"
-    PROPERTIES ||--o{ WISHLIST_PROPERTIES : "saved_in"
     
-    LIVE_GROUPING_PROPERTIES ||--|{ LIVE_GROUP_UNITS : "contains"
+    TENDERS ||--|{ BIDS : "receives"
+    TENDERS ||--o{ TENDER_CHATS : "discusses"
+    
+    LIVE_GROUP_PROJECTS ||--|{ LIVE_GROUP_UNITS : "contains"
     LIVE_GROUP_UNITS ||--o{ LIVE_GROUP_BOOKINGS : "reserved_by"
-    
+
+    SHORT_STAY_PROPERTIES ||--|{ SHORT_STAY_BOOKINGS : "books"
+    SHORT_STAY_PROPERTIES ||--o{ SHORT_STAY_REVIEWS : "reviews"
+
     CHATS ||--|{ MESSAGES : "contains"
-    WISHLISTS ||--o{ WISHLIST_PROPERTIES : "contains"
 
     USERS {
         uuid id PK
         string name
         string email UK
         string password
+        string phone
         string user_type
         boolean is_verified
         boolean is_subscribed
         timestamp subscription_expiry
+        boolean is_deleted
     }
 
-    PROPERTIES {
+    TENDERS {
         int id PK
-        uuid user_id FK
+        int creator_id FK
         string title
-        string type
-        string location
-        decimal price
-        string bhk
-        text_array images
+        string category
+        string budget
+        string timeline
+        boolean is_blind
+        jsonb structured_data
+        jsonb documents
+        int awarded_bid_id
         string status
     }
 
-    BOOKINGS {
+    BIDS {
         int id PK
-        int property_id FK
-        uuid user_id FK
-        date visit_date
-        time visit_time
-        string payment_status
-        string razorpay_order_id
+        int tender_id FK
+        int vendor_id FK
         decimal amount
+        string timeline
+        string proposal_text
+        string status
     }
 
-    LIVE_GROUPING_PROPERTIES {
+    ACCOUNT_DELETIONS {
         int id PK
+        uuid user_id FK
+        string email
+        string deletion_method
+        string deletion_reason
+        string ip_address
+        string user_agent
+        timestamp deleted_at
+    }
+
+    SHORT_STAY_PROPERTIES {
+        int id PK
+        uuid host_id FK
         string title
-        string developer
-        decimal standard_price
-        decimal discounted_price
-        int target_members
-        int current_members
+        decimal price_per_night
+        decimal cleaning_fee
+        jsonb availability_calendar
+        string status
     }
 ```
 
 ---
 
-### Core Tables & Schema Definitions
-
-<details>
-<summary><b>Click to view production SQL schema for users, properties & bookings</b></summary>
-
-```sql
--- Users Table
-CREATE TABLE users (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    phone VARCHAR(20),
-    user_type VARCHAR(50) DEFAULT 'individual', -- individual, developer, broker, employee, admin
-    profile_photo TEXT,
-    is_verified BOOLEAN DEFAULT FALSE,
-    is_subscribed BOOLEAN DEFAULT FALSE,
-    subscription_expiry TIMESTAMP,
-    subscription_plan VARCHAR(100),
-    subscription_price DECIMAL(10, 2),
-    subscribed_at TIMESTAMP,
-    bio TEXT,
-    is_deleted BOOLEAN DEFAULT FALSE,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Properties Table
-CREATE TABLE properties (
-    id SERIAL PRIMARY KEY,
-    user_id UUID REFERENCES users(id) ON DELETE CASCADE,
-    title VARCHAR(255) NOT NULL,
-    type VARCHAR(100), -- apartment, villa, commercial, plot
-    location VARCHAR(255),
-    price DECIMAL(12, 2),
-    bhk VARCHAR(50),
-    description TEXT,
-    facilities TEXT[],
-    images TEXT[],
-    image_url TEXT,
-    status VARCHAR(50) DEFAULT 'pending', -- pending, approved, rejected, sold
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-
--- Bookings Table
-CREATE TABLE bookings (
-    id SERIAL PRIMARY KEY,
-    property_id INTEGER REFERENCES properties(id) ON DELETE SET NULL,
-    property_title VARCHAR(255),
-    property_location VARCHAR(255),
-    user_id UUID REFERENCES users(id) ON DELETE CASCADE,
-    user_email VARCHAR(255),
-    visit_date DATE NOT NULL,
-    visit_time TIME NOT NULL,
-    number_of_people INTEGER DEFAULT 1,
-    person1_name VARCHAR(255) NOT NULL,
-    pickup_address TEXT,
-    payment_method VARCHAR(50) DEFAULT 'razorpay',
-    payment_status VARCHAR(50) DEFAULT 'pending', -- pending, paid, refunded
-    razorpay_order_id VARCHAR(255),
-    razorpay_payment_id VARCHAR(255),
-    amount DECIMAL(10, 2),
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
-</details>
-
----
-
-### Database Performance Indexes
-
-```sql
--- Speed up authentication and role-gated queries
-CREATE INDEX idx_users_email ON users(email);
-CREATE INDEX idx_users_user_type ON users(user_type);
-
--- Speed up marketplace property browsing and multi-criteria filters
-CREATE INDEX idx_properties_user_id ON properties(user_id);
-CREATE INDEX idx_properties_status ON properties(status);
-CREATE INDEX idx_properties_location ON properties(location);
-CREATE INDEX idx_properties_type ON properties(type);
-
--- Accelerate calendar scheduling and user booking lookups
-CREATE INDEX idx_bookings_user_id ON bookings(user_id);
-CREATE INDEX idx_bookings_property_id ON bookings(property_id);
-CREATE INDEX idx_bookings_visit_date ON bookings(visit_date);
-
--- Low-latency chat and messaging
-CREATE INDEX idx_chats_user1_id ON chats(user1_id);
-CREATE INDEX idx_chats_user2_id ON chats(user2_id);
-CREATE INDEX idx_messages_chat_id ON messages(chat_id);
-CREATE INDEX idx_messages_created_at ON messages(created_at);
-```
-
----
-
-## 🚀 Installation & Setup Guide
+## 🚀 Setup & Installation
 
 ### Prerequisites
 - **Node.js:** v18.0.0 or higher
-- **PostgreSQL:** v14.0 or higher (or cloud database like Neon DB / AWS RDS)
+- **PostgreSQL:** v14.0 or higher (Neon DB or AWS RDS)
 - **Git**
 
 ---
 
-### 1. Repository Setup
-
+### Step 1: Clone Repository
 ```bash
 git clone https://github.com/sun2004ny/bada-builder-frontend.git
-cd bada-builder
+cd Bada_Builder_Prod
 ```
 
 ---
 
-### 2. Backend Initialization
-
+### Step 2: Backend Setup
 ```bash
 cd bada-builder-backend
 npm install
 ```
 
-Create `.env` inside `bada-builder-backend/`:
+Create `.env` in `bada-builder-backend/`:
 ```env
 PORT=5001
 NODE_ENV=development
 FRONTEND_URL=http://localhost:5173
 
-# Database Connection (Neon DB / PostgreSQL)
+# Database Connection (PostgreSQL / Neon DB / AWS RDS)
 DATABASE_URL=postgresql://username:password@ep-sample-pool.neon.tech/badabuilder?sslmode=require
 
-# JWT Auth Secret
+# JWT Authentication
 JWT_SECRET=your_super_secret_jwt_encryption_key
 JWT_EXPIRE=7d
 
-# Media Uploads (Cloudinary / AWS S3)
+# Media Uploads (AWS S3 & Cloudinary)
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 # Razorpay Payment Gateway (Test or Live)
 RAZORPAY_KEY_ID=rzp_test_your_key_id
-RAZORPAY_KEY_SECRET=your_secret_key_kept_private_on_backend
+RAZORPAY_KEY_SECRET=your_razorpay_secret_kept_strictly_on_backend
 
 # Transactional Email (Brevo / SMTP)
 SMTP_HOST=smtp.brevo.com
@@ -683,85 +739,61 @@ SMTP_FROM=noreply@badabuilder.com
 BREVO_API_KEY=your_brevo_api_key
 ```
 
-Execute database migrations:
+Execute multi-script database migration:
 ```bash
 npm run migrate
 ```
 
-Start the backend server:
+Start backend development server:
 ```bash
 npm run dev
-# Server running on http://localhost:5001
+# Server listening on http://localhost:5001
 ```
 
 ---
 
-### 3. Frontend Initialization
-
+### Step 3: Frontend Setup
 ```bash
 cd ../bada-builder-frontend
 npm install
 ```
 
-Create `.env` inside `bada-builder-frontend/`:
+Create `.env` in `bada-builder-frontend/`:
 ```env
-# Point to backend API
+# Backend REST API
 VITE_API_URL=http://localhost:5001/api
 
 # Google Maps API Key for spatial features
 VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
-# Razorpay Public Key ID (ONLY the public key, NEVER the secret!)
+# Razorpay Key ID (ONLY Public Key ID - Never put secrets here!)
 VITE_RAZORPAY_KEY_ID=rzp_test_your_key_id
 ```
 
-Start the frontend development server:
+Start frontend development server:
 ```bash
 npm run dev
-# Vite server running on http://localhost:5173
+# Vite development server running on http://localhost:5173
 ```
 
 ---
 
-## 🛡️ Security & Hardening
-
-> [!IMPORTANT]
-> **Strict Secret Segregation:**
-> - The Razorpay Secret Key (`RAZORPAY_KEY_SECRET`) must **strictly reside on the backend**.
-> - Never store secrets in client environment variables (`VITE_*` keys are compiled into public JavaScript).
-> - All payment orders are generated on the server, and payment signatures are cryptographically checked using HMAC SHA-256 before granting access or updating statuses.
+## 🛡️ Security, Hardening & Compliance
 
 > [!SECURITY]
-> **Defense-in-Depth Implementation:**
-> 1. **HTTP Headers:** Enforced with `helmet()` covering CSP, HSTS, and frameguards.
-> 2. **CORS Guard:** Restricts browser API access strictly to designated `FRONTEND_URL` origins.
-> 3. **Brute-Force & Rate Limiting:**
+> **Production Security Standards Implemented:**
+> 1. **Client-Side Secret Shield:** `RAZORPAY_KEY_SECRET` resides strictly in the Node.js backend. The frontend bundle only receives the public `key_id`. All payment signatures are verified server-side with HMAC SHA-256 before updating database states.
+> 2. **Multi-Tier Rate Limiting:**
 >    - Authentication: 50 requests / 15 minutes.
->    - OTP Generation: 20 requests / 15 minutes.
->    - General Mutations: 30 requests / minute.
-> 4. **Parameterized SQL:** All queries through `pg` use parameterized statements (`$1`, `$2`), eliminating SQL injection vulnerabilities.
+>    - Email OTP generation: 20 requests / 15 minutes.
+>    - Data mutations: 30 requests / minute.
+>    - General reads: 100 requests / minute.
+> 3. **SQL Injection Defense:** Zero raw query concatenation. 100% of SQL statements executed via `pg.Pool` utilize parameterized placeholders (`$1`, `$2`, `$3`).
+> 4. **GDPR Account Deletion Audit:** Soft-delete pipeline masks personally identifiable information while preserving non-reversible audit records (`account_deletions`) tracking deletion reasons, timestamps, and IP addresses.
 
 ---
 
-## 📈 Performance Optimizations
-
-1. **Database Connection Pooling:** Configured with `pg.Pool` managing idle client timeouts and automatic connection recycling.
-2. **Dynamic Route Splitting:** React Router components use `React.lazy()` and `Suspense`, trimming initial JS bundle transfer size by over 60%.
-3. **Asset Pipeline:** Automated WebP conversion and caching via Cloudinary and Vercel Edge CDN.
-4. **Three.js Scene Optimization:** Geometries are cached with low-poly fallbacks, memory disposed on component unmount to prevent WebGL context leaks.
-
----
-
-## 🔮 Future Roadmap
-
-- [ ] **AI Property Valuation Engine:** Machine learning regression model predicting price growth from neighborhood data.
-- [ ] **Virtual Reality (WebXR) Tours:** Seamless VR headset support for remote walkthroughs.
-- [ ] **Smart Contract Escrow:** Option for tokenized milestone security deposits via Polygon / EVM.
-- [ ] **Cross-Platform Mobile App:** React Native client using the shared REST/WebSocket endpoints.
-
----
-
-## 👤 Author & Credits
+## 👤 Author & Production Credits
 
 **Sunny More**  
 *Full-Stack Web Developer & NLP Engineer*  
@@ -772,5 +804,5 @@ npm run dev
 ---
 
 <div align="center">
-  <p><sub>Developed for <strong>Bada Builder Pvt. Ltd.</strong> · Released under the ISC License.</sub></p>
+  <p><sub>Engineered for <strong>Bada Builder Pvt. Ltd.</strong> · Built with React, Vite, Node.js, Express, PostgreSQL & AWS.</sub></p>
 </div>
